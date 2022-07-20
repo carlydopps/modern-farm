@@ -39,7 +39,7 @@ const HTMLformat = Catalog(harvestedPlants)
 const parentHTMLElement = document.querySelector(".container")
 parentHTMLElement.innerHTML = HTMLformat
 
-/* Beginning with line 26:
+/* Mentally running through code beginning with line 26:
     1. The variable yearlyPlan stores the return variable of the createPlan function
         - the createPlan function creates a planting plan in the form of an array
         - so its return value is an array of arrays of individual plants (now stored within the variable yearlyPlan)
